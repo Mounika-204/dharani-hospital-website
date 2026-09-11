@@ -987,19 +987,22 @@ button {
 .footer-emergency p {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     margin: 0;
 }
 
 .footer-emergency p i {
     color: #70e1e9;
     font-size: 15px;
+    flex-shrink: 0;
 }
 
 .footer-emergency p a {
     color: #70e1e9;
     font-size: 13px;
     font-weight: 400;
+    text-decoration: none;
+    display: inline;
 }
 
 .copyright {
